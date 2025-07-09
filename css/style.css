@@ -91,4 +91,8 @@ header {
     max-width: 600px;
 background-color: lightgreen;
 }
+
+footer{
+    line-height: 5%;
+}
 }
