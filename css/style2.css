@@ -17,7 +17,6 @@ html, body{
 
 header {
 text-align: center;
-padding: 10px;
 image-rendering: pixelated;
 font-family: cursive;
 color: #fff;
@@ -31,7 +30,7 @@ header .pfp {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 header .pfp.mary-anne {
