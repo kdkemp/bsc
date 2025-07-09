@@ -82,3 +82,6 @@ footer a:hover{
 background-color: lightsalmon;
 text-transform: uppercase;
 }
+
+@media (max-width: 600px)
+{font-size: 14px;}
