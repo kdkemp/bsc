@@ -2,6 +2,13 @@ body {
     background-color: lavender;
 }
 
+main {
+    width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
 html, body{
     margin: 0;
     padding: 0
@@ -13,6 +20,8 @@ background-color: lightgreen;
 padding: 10px;
 image-rendering: pixelated;
 font-family: cursive;
+color: #fff;
+text-shadow: 1px 1px 2px black;
 }
 
 header .pfp {
@@ -25,4 +34,36 @@ header .pfp {
     background-position: center center;
     background-size: 100%;
     margin: 0 auto;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: cursive;
+    background-color: hotpink;
+    padding: 5px;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+    border: 10px inset peru;
+}
+
+.caption {
+    font-style: italic;
+    text-align: center;
+}
+
+a {
+    color:lightsalmon;
+    font-weight: bold;
+}
+
+a:hover{
+background-color:lightgreen;
+color: #fff;
+text-transform: uppercase;
 }
