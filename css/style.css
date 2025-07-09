@@ -1,5 +1,6 @@
 body {
     background-color: lavender;
+    color:midnightblue
 }
 
 main {
@@ -21,7 +22,7 @@ padding: 10px;
 image-rendering: pixelated;
 font-family: cursive;
 color: #fff;
-text-shadow: 1px 1px 2px black;
+text-shadow: 1px 1px 2px midnightblue;
 }
 
 header .pfp {
@@ -42,7 +43,7 @@ h2 {
     background-color: hotpink;
     padding: 5px;
     color: #fff;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px midnightblue;
 }
 
 img {
@@ -65,5 +66,19 @@ a {
 a:hover{
 background-color:lightgreen;
 color: #fff;
+text-transform: uppercase;
+}
+
+footer{
+    width: 800px;
+    margin: 0 auto;
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: center;
+    line-height: 0%;
+}
+
+footer a:hover{
+background-color: lightsalmon;
 text-transform: uppercase;
 }
