@@ -83,5 +83,12 @@ background-color: lightsalmon;
 text-transform: uppercase;
 }
 
-@media (max-width: 600px)
-{font-size: 16px;}
+@media (max-width: 600px) {
+    body {
+font-size: 16px;
+}
+header {
+    max-width: 600px;
+background-color: lightgreen;
+}
+}
